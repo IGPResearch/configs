@@ -1,0 +1,32 @@
+name: igp
+channels:
+- conda-forge
+dependencies:
+- aospy
+- autopep8
+- beautifulsoup4
+- cartopy
+- cached-property
+- flake8
+- gdal
+- h5py
+- ipykernel
+- iris
+- matplotlib
+- metpy
+- numpy
+- numba
+- pandas
+- pillow
+- python=3.6
+- pytest
+- rasterio
+- requests
+- scipy
+- tqdm
+- xarray
+- pip:
+  - ecmwf-api-client
+  - daiquiri
+  - pynmea2
+  - git+https://github.com/dennissergeev/arke.git
