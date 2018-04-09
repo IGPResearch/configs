@@ -24,6 +24,7 @@ dependencies:
 - rasterio
 - requests
 - scipy
+- siphon
 - tqdm
 - xarray
 - pip:
